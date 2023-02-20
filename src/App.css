@@ -1,0 +1,36 @@
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #ebc7ff;
+}
+
+.box {
+    width: 480px;
+    padding: 1rem 1.5rem;
+    background-color: #be8cff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.box>h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.box q {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.box p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
